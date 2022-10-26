@@ -1,0 +1,11 @@
+.footer__link {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+}
+
+.footer__link:visited {
+  color: white;
+}

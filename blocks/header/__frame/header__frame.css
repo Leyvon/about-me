@@ -1,0 +1,11 @@
+.header__frame {
+  position: absolute;
+  right: 64px;
+  top: 30px;
+  background-color: black;
+  width: 210px;
+  height: 275px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

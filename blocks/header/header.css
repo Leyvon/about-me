@@ -1,0 +1,11 @@
+.header {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 20px;
+  position: relative;
+  min-height: 300px;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
