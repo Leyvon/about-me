@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./index.css">
+  <!-- <link rel="stylesheet" href="./index.css"> -->
   <title>AboutMe</title>
 </head>
 <body>
@@ -13,43 +13,43 @@
     <header class="header">
       <div class="logo logo_place_header"></div>
       <div class="header__frame">
-        <img src="./images/photo.jpg" alt="моя фотография" class="header__photo">
+        <img src="<%=require(./images/photo.jpg)%>" alt="моя фотография" class="header__photo">
       </div>
       <h1 class="header__title">Здесь содержится краткая информация обо мне</h1>
     </header>
 
     <main class="content">
       <h2 class="subtitle"><span class="subtitle__letter">Я</span> Амельченко Семён</h2>
-      
+
       <ul class="info-list">
 
         <li class="info-item">
-          <img class="info-item__image" src="./images/neti.jpg" alt="логотип университета" />
+          <img class="info-item__image" src="<%=require(./images/neti.jpg)%>" alt="логотип университета" />
           <h3 class="info-item__title">Учусь в НГТУ</h3>
         </li>
 
         <li class="info-item">
-          <img class="info-item__image" src="./images/study.jpg" alt="учёба" />
+          <img class="info-item__image" src="<%=require(./images/study.jpg)%>" alt="учёба" />
           <h3 class="info-item__title">3 курс</h3>
         </li>
 
         <li class="info-item">
-          <img class="info-item__image" src="./images/fpmi.jpg" alt="логотип фпми" />
+          <img class="info-item__image" src="<%=require(./images/fpmi.jpg)%>" alt="логотип фпми" />
           <h3 class="info-item__title">Факультет ПМИ</h3>
         </li>
 
         <li class="info-item">
-          <img class="info-item__image" src="./images/uni.jpg" alt="аудитория" />
+          <img class="info-item__image" src="<%=require(./images/uni.jpg)%>" alt="аудитория" />
           <h3 class="info-item__title">Закончил Лицей №22</h3>
         </li>
 
         <li class="info-item">
-          <img class="info-item__image" src="./images/musicschool.jpg" alt="игра на пианино" />
+          <img class="info-item__image" src="<%=require(./images/musicschool.jpg)%>" alt="игра на пианино" />
           <h3 class="info-item__title">Закончил Музыкальную школу №1</h3>
         </li>
 
         <li class="info-item">
-          <img class="info-item__image" src="./images/success.jpg" alt="человек с поднятой рукой" />
+          <img class="info-item__image" src="<%=require(./images/success.jpg)%>" alt="человек с поднятой рукой" />
           <h3 class="info-item__title">Закончил делать эту страницу</h3>
         </li>
 
@@ -58,8 +58,8 @@
 
     <footer class="footer">
       <div class="logo logo_place_footer"></div>
+      <a class="footer__link" href="./report.html">Перейти к отчёту</a>
       <p class="footer__author">&copy;2022.Амельченко Семён</p>
-      <a class="footer__link" href="./report.html">Отчёт</a>
     </footer>
 
   </div>

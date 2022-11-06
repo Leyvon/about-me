@@ -1,6 +1,10 @@
 @import url(./vendor/normalize.css);
-@import url(./blocks/body/body.css);
-@import url(./blocks/page/page.css);
-@import url(./blocks/header/header.css);
-@import url(./blocks/content/content.css);
-@import url(./blocks/footer/footer.css);
+@import url(./blocks2/page/page.css);
+@import url(./blocks2/header/header.css);
+@import url(./blocks2/header/__info-container/header__info-container.css);
+@import url(./blocks2/header/__info-column/header__info-column.css);
+@import url(./blocks2/header/__title/header__title.css);
+@import url(./blocks2/header/__subtitle/header__subtitle.css);
+@import url(./blocks2/content/content.css);
+@import url(./blocks2/footer/footer.css);
+@import url(./blocks2/footer/__link/footer__link.css);

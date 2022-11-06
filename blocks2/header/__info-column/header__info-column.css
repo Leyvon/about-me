@@ -1,0 +1,9 @@
+.header__info-column {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header__info-column:first-of-type {
+  margin-right: 20px;
+}

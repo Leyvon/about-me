@@ -1,0 +1,8 @@
+.header__info-container {
+  display: flex;
+  margin: 60px 0;
+  margin-left: 20%;
+  max-width: 500px;
+  justify-content: space-between;
+  align-self: flex-start;
+}

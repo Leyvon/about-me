@@ -1,0 +1,9 @@
+.footer__link, .footer__link:visited, .footer__link:active {
+  color: black;
+  text-decoration: none;
+  transition: opacity 1s;
+}
+
+.footer__link:hover {
+  opacity: .6;
+}
