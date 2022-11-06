@@ -1,2 +1,2 @@
-import '../index.css';
-import '../report.css';
+import './index.css';
+import './report.css';
